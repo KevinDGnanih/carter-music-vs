@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-ka)t4$^e@o4d7k9eqyz0jdtl-k6jraot^49_ly0)l9-ly9*ni5
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'carter-music.onrender.com'
+    'carter-music-co.onrender.com'
     'localhost',
     '127.0.0.1']
 
