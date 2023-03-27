@@ -9,6 +9,7 @@ cloudinary==1.32.0
 cryptography==40.0.0
 defusedxml==0.7.1
 distlib==0.3.6
+dj-database-url==1.2.0
 Django==4.1.7
 django-allauth==0.53.1
 django-cloudinary-storage==0.3.0
@@ -28,6 +29,7 @@ pguard==0.4.0
 Pillow==9.4.0
 pipenv==2023.3.20
 platformdirs==3.1.1
+psycopg2-binary==2.9.5
 pycparser==2.21
 Pygments==2.14.0
 PyJWT==2.6.0
