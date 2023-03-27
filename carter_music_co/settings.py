@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-ka)t4$^e@o4d7k9eqyz0jdtl-k6jraot^49_ly0)l9-ly9*ni5
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'carter-music-co.onrender.com'
+    'carter-music-co.onrender.com',
     'localhost',]
 
 
@@ -112,7 +112,6 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 SITE_ID = 1
-
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
