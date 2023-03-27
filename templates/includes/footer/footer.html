@@ -1,0 +1,114 @@
+<div class="container">
+    <footer class="py-3 border-top mt-5">
+        <div class="row">
+            <div class="col-2">
+                <h5>Instrument</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="{% url 'products' %}?category=electric,acoustic"
+                            class="nav-link p-0 text-muted bottom-link">Guitars</a></li>
+                    <li class="nav-item mb-2"><a href="{% url 'products' %}?category=bass"
+                            class="nav-link p-0 text-muted bottom-link">Bass</a></li>
+                    <li class="nav-item mb-2"><a href="{% url 'products' %}?category=drums"
+                            class="nav-link p-0 text-muted bottom-link">Drum</a></li>
+                    <li class="nav-item mb-2"><a href="{% url 'products' %}?category=keys"
+                            class="nav-link p-0 text-muted bottom-link">Keyboards</a></li>
+                    <li class="nav-item mb-2"><a href="{% url 'products' %}?category=amps"
+                            class="nav-link p-0 text-muted bottom-link">Amps</a></li>
+                </ul>
+            </div>
+
+            <div class="col-2">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="{% url 'products' %}"
+                            class="nav-link p-0 text-muted bottom-link">Home</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="{% url 'about' %}"
+                            class="nav-link p-0 text-muted bottom-link">About</a></li>
+                </ul>
+            </div>
+
+            <hr>
+            <div class="col-2">
+                <a href="https://www.fender.com/en-GB/start" target="_blank"><img width="50"
+                        src="https://res.cloudinary.com/kdcloud-8710/image/upload/v1664489777/fender_logo_ekqeig.png"
+                        alt="Fender logo"></a>
+                <a href="https://uk.yamaha.com/en/products/musical_instruments/guitars_basses/index.html"
+                    target="_blank"><img width="50"
+                        src="https://res.cloudinary.com/kdcloud-8710/image/upload/v1664489777/yamaha_logo_c5jiag.png"
+                        alt="Yamaha logo"></a>
+            </div>
+            <hr>
+
+            <div class="col-4 offset-1">
+                <!--<form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of whats new and exciting from us.</p>
+                    <div class="d-flex w-100 gap-2">
+                        <input id="newsletter1" type="text" class="form-control style-input" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </form>-->
+
+                <!-- Begin Mailchimp Signup Form -->
+                <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                    <form
+                        action="https://herokuapp.us9.list-manage.com/subscribe/post?u=126d6f9f6ec63a96568bac002&amp;id=f71a4dd44b&amp;f_id=004301e1f0"
+                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                        target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <h2>Subscribe to our newsletter</h2>
+                            <p>Monthly digest of whats new and exciting from us.</p>
+                            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+                                </label>
+                                <input type="email" value="" name="EMAIL" class="required email style-input"
+                                    id="mce-EMAIL" required>
+                                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                            </div>
+                            <div id="mce-responses" class="clear foot">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                    name="b_126d6f9f6ec63a96568bac002_f71a4dd44b" tabindex="-1" value=""></div>
+                            <div class="optionalParent">
+                                <div class="clear foot">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                                        class="button btn-blue">
+                                    <p class="brandingLogo"><a href="http://eepurl.com/h9JH1f"
+                                            title="Mailchimp - email marketing made easy and fun"><img
+                                                src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg" alt="mailchimp logo"></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'>
+                </script>
+                {{ block.super }}
+                <script type="text/javascript" src="/static/js/mailchimp.js"></script>
+                <!--End mc_embed_signup-->
+
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between border-top">
+            <p>© 2022 Carter Music & Co. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3">Find us on:<a target="_blank" class="link-dark"
+                        href="https://www.facebook.com/Carter-Music-Co-111277511708560" rel="noopener">
+                        <h3><i class="fa fa-facebook"></i></h3>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+</div>

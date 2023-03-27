@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col text-center mb-3 mt-3">
+            <h2 class="logo-font">About Us</h2>
+            <img src="https://res.cloudinary.com/kdcloud-8710/image/upload/v1663964061/cmco_n2tl4f.png" width="300" height="300" alt="logo">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6 mx-auto px-5">
+            <p>
+                Whether it's your first, fifteenth or even fiftieth guitar, carter Music & Co. is here to guide you through
+                your
+                playing journey and get your music sounding great. Doesn't matter if you're taking your first steps into
+                the
+                world of music or you're a seasoned collector, we're here to help - and with our three year warranty,
+                your
+                gear's covered too. We want to make sure that no matter what happens, your rig is right for you.
+            </p>
+        </div>
+    </div>
+
+
+</div>
+<div class="btt-button shadow-sm rounded-0 border border-black">
+    <a class="btt-link d-flex h-100">
+        <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
+    </a>
+</div>
+
+{% include 'includes/footer/footer.html' %}
+{% endblock %}
